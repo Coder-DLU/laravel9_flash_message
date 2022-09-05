@@ -7,7 +7,7 @@
 - info
 - validation error
   + Tạo resources/views/flash-message.blade.php
-  ```Dockerfile
+```Dockerfile
 @if ($message = Session::get('success'))
 <div class="alert alert-success alert-dismissible fade show" role="alert">
   <strong>{{ $message }}</strong>
