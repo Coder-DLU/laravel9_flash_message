@@ -138,7 +138,7 @@ public function create(Request $request)
 
 ![Container](img3.png)
 
-## 3.4: Redirect with info message
+## 3.5: Validation Error
 ```Dockerfile
 public function create(Request $request)
 {
